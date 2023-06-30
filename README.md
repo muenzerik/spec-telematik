@@ -1,6 +1,6 @@
 # Telematics Infrastructure Specification
 
-This repository is part of a PoC demonstrator in order to conduct a fesibility study whether to utilize a git/flow based specification developmemt methodology for the telematics infrastructure specification of the German federal health system.
+This repository is part of a PoC demonstrator in order to conduct a feasibility study whether to utilize a git/flow based specification development methodology for the telematics infrastructure specification of the German federal health system.
 
 The PoC utilises [sphinx](https://www.sphinx-doc.org/en/master/index.html) for describing the required specifications and the [sphinx-needs](https://sphinx-needs.readthedocs.io/en/latest/index.html) extension module to be able to manage requirements which is essential for specifying a robust system, targeted to process delicate personal data of about 80 million German citizens.
 
@@ -32,4 +32,4 @@ All files in this repository are licensed under Apache license as you can see in
 
 ## Disclaimer
 
-The document versions used in this PoC in GitHub do not correspond to the latest official, valid and admissible specification document versions of the national agency for digitzation of the German federal health system [gematik](https://www.gematik.de/). The current stage of the PoC in this Repository is still in a test phase.
+The document versions used in this PoC in GitHub do not correspond to the latest official, valid and admissible specification document versions of the national agency for digitalization of the German federal health system [gematik](https://www.gematik.de/). The current stage of the PoC in this Repository is still in a test phase.

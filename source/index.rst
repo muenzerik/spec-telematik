@@ -6,12 +6,15 @@
 Welcome to Telematik Spezifikation's documentation!
 ===================================================
 
-.. toctree::
+.. As we use the sphinx_external_toc extension, we don't need the toctree below anymore...
+   But we keep it here for a while as orienting formatting placeholder.
+.. 
+   .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-   autosar/main
-   autosar/autosar_crypto
+   gemSpec_Kon/source/autosar/main
+   gemSpec_Kon/source/autosar/autosar_crypto
 
 
 Indices and tables

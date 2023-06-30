@@ -6,7 +6,8 @@
 CWD:=$(shell dirname $(realpath $(firstword $(MAKEFILE_LIST))))
 SPHINXOPTS    ?=
 SPHINXBUILD   ?= sphinx-build
-SOURCEDIR     = source
+CONFIGDIR     = config
+SOURCEDIR     = ..
 BUILDDIR      = build
 LOGDIR        = log
 UTILSDIR      = utils
@@ -32,7 +33,7 @@ ${CWD}/${UTILSDIR}/plantuml.jar:
 
 req: ${CWD}/${UTILSDIR}/plantuml.jar
 	@echo "Creating documentation"
-	@sphinx-build -E -b html "$(SOURCEDIR)" "$(BUILDDIR)"
+	@sphinx-build -E -c "$(CONFIGDIR)" -b html "$(SOURCEDIR)" "$(BUILDDIR)"
 
 clean:
 	@echo "Cleaning"
