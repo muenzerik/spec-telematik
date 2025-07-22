@@ -11,6 +11,7 @@ The following tools shall be provisioned before attempting to make a specificati
 - python3
 - pip
 - graphviz
+- java 21
 
 In addition, the python modules as described in [requirements.txt](requirements.txt) shall be provided via pip install:
 ```

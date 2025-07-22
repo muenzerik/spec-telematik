@@ -41,7 +41,7 @@ else:
 # -- Settings for external TOC -------------------------------------------
 # https://sphinx-external-toc.readthedocs.io/en/latest/user_guide/sphinx.html
 
-external_toc_path = "konnektor-manifest/_toc.yml"  # optional, default: _toc.yml
+external_toc_path = "manifest-telematik/_toc.yml"  # optional, default: _toc.yml
 external_toc_exclude_missing = False  # optional, default: False
 
 # -- Options for HTML output -------------------------------------------------
