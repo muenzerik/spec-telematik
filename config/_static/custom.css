@@ -1,0 +1,20 @@
+/* custom.css */
+#sidebar-resizer {
+    position: fixed;
+    top: 0;
+    left: 300px; /* initial sidebar width */
+    width: 6px;
+    height: 100vh;
+    background: #e2e2e2;
+    cursor: ew-resize;
+    z-index: 200;
+    transition: background 0.2s;
+}
+#sidebar-resizer:hover,
+#sidebar-resizer.active {
+    background: #b0b0b0;
+}
+
+.wy-nav-side {
+    transition: width 0.1s;
+}
